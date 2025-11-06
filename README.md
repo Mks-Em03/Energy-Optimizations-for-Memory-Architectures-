@@ -86,6 +86,19 @@ Modern compute spans **edge → embedded → HPC** and is constrained by power, 
 - **HPC practitioners** seeking scheduling policies that are both **efficient** and **fair**.
 - **Python/Distributed** engineers optimizing shared data paths and cluster throughput.
 
+
+
+---
+
+### What I pulled directly from your paper
+- Scope: NVM/IMC (Racetrack, RRAM), PyCOMPSs + SharedArray integration, **Deviation Backfilling + kNN**, TECH-DoE cache tuning, WCET with banked NVM + write buffer, plus figures (nanowire/MTJ, WCET flow, backfilling comparison). See your uploaded PDF for details.
+
+If you want, I can also:
+- Generate **SVG figures** for Fig 1.0 / 1.2 / 1.3 (so they render cleanly on GitHub).
+- Add **one-page summaries** for each technique under `notes/`.
+- Create a **slide deck** (`extras/slides.pptx`) auto-filled with the highlights.
+
+
 ---
 
 ## 🚀 Quick Start (Repo Structure)
